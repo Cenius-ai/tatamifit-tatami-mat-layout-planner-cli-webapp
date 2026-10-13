@@ -1,0 +1,4 @@
+# TatamiFit is one standard-library Python file: there is no runtime
+# dependency at all. The only install-time package is the test runner used
+# by `python3 -m pytest` (and `python3 -m unittest` works too).
+pytest>=8.0

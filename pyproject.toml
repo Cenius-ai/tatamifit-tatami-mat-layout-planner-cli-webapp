@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tatamifit"
+version = "1.0.0"
+description = "Tatami mat layout planner for rectangular rooms (standard library only)"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+tatamifit = "tatamifit:main"
+
+[tool.setuptools]
+py-modules = ["tatamifit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
